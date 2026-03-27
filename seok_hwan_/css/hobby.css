@@ -1,0 +1,18 @@
+/*css조건 2번 만족 */
+@font-face {
+    font-family: 'KccSign';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2'); /*css조건 5번 만족 */
+    font-weight: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'KccSign';
+    text-align: center;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210306/pngtree-thread-pattern-background-image_579606.jpg); /*css조건 4번 만족 */
+}
+
+ul,ol {
+    display: inline-block;
+    text-align: center; /*css조건 3번 만족 */
+}
