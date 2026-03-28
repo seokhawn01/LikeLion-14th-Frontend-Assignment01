@@ -9,7 +9,7 @@
 body {
     font-family: 'KccSign';
     text-align: center;
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210306/pngtree-thread-pattern-background-image_579606.jpg); /*css조건 4번 만족 */
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(https://png.pngtree.com/thumb_back/fw800/background/20210306/pngtree-thread-pattern-background-image_579606.jpg); /*css조건 4번 만족 */
 }
 
 ul,ol {
