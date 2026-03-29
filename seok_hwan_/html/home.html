@@ -10,30 +10,39 @@
     <header><!--html 조건 3번 만족-->
         <h1>홈</h1>
     </header>
-    <nav> 
+    <nav>
         <ul> <!--html 조건 5번 만족-->
-            <br><li><a href="home.html">홈</a><br/></li> <!--html 조건 4번 만족-->
-            <li><a href="introduce.html">자기소개</a><br/></li> <!--html 조건 4번 만족-->
-            <li><a href="hobby.html">취미</a></li><br> <!--html 조건 4번 만족-->
+            <li><a href="home.html">홈</a></li> <!--html 조건 4번 만족-->
+            <li><a href="introduce.html">자기소개</a></li> <!--html 조건 4번 만족-->
+            <li><a href="hobby.html">취미</a></li> <!--html 조건 4번 만족-->
         </ul>
-        <form>
-            이름 <input type="text" size="10" value=""></br> <!--html 조건 8번 만족-->
-            비밀번호 <input type="password" size="10" value=""><br></br> <!--html 조건 8번 만족-->
-            전공 <br/> <!--html 조건 8번 만족-->
-            <input type="checkbox" size="30" value=""> 소프트웨어
-            <input type="checkbox" size="30" value=""> 인공지능 
-            <input type="checkbox" size="30" value=""> 정보통신 
-            <input type="checkbox" size="30" value=""> 컴퓨터공학 </br>
-        </form>
+    </nav>
+    <form> <!--html 조건 8번 만족-->
+        <div class="form-row">
+            <label for="name">이름</label>
+            <input type="text" id="name" size="10">
+        </div>
+        <div class="form-row">
+            <label for="pw">비밀번호</label>
+            <input type="password" id="pw" size="10">
+        </div>
+        <div>
+            전공<br>
+            <label><input type="checkbox"> 소프트웨어</label>
+            <label><input type="checkbox"> 인공지능</label>
+            <label><input type="checkbox"> 정보통신</label>
+            <label><input type="checkbox"> 컴퓨터공학</label>
+        </div>
+    </form>      
         
     <!--백엔드,프론트,교양 input태그로 선택가능하게 하고 각 파트당 듣는 과목 나오게-->
-</nav>
+
 <!-- 이름,학부, 입력 받기, 취미,좋아하는 음식 하이퍼링크 -->
     <section>
         <article id="시간표">
             <h2>시간표</h2>
             <table border="1"> <!--html 조건 6번 만족-->
-                <caption></caption>
+                <caption>3학년 1학기</caption>
                 <thead>
                     <tr><th>시간</th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr>
                     <tr><th>오전 9시</th><th rowspan="3">생활속수학</th>

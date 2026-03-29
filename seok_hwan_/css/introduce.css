@@ -6,15 +6,38 @@
     font-display: swap;
 }
 
+
+h1 {
+    font-size: 2em;
+  }
+
+h2 {
+    margin-top: 20px;
+  }
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+  }
 body {
     font-family: 'KccSign';
     text-align: center;
+    padding-top: 80px;
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(https://png.pngtree.com/thumb_back/fw800/background/20210306/pngtree-thread-pattern-background-image_579606.jpg); /*css조건 4번 만족 */
-    margin: 30px 30px 30px 30px
 }
 
-ul {
-    display: inline-block;
-    text-align: center; /*css조건 3번 만족 */
+nav ul { /*nav안의 ul을 선택할때 편리해보여서 사용했습니다*/
+    display: flex; /*수업시간에 배운 flex도 써봤어요*/
+    justify-content: center; /*css조건 3번 만족 */
+    gap: 40px;
+    list-style: none; /*점이 안예뻐서 빼봤습니다*/
+    margin: 0;
+    padding: 0;
 }
-
+nav ul li a {
+    font-size: 1em;
+}
