@@ -7,7 +7,7 @@
 }
 
 h1 {
-    font-size: 2rem; 
+    font-size: 2em; 
   }
 
 nav {
@@ -22,6 +22,7 @@ nav {
     font-family: 'KccSign';
     text-align: center;
     padding-top: 80px;
+    min-height: 100vh;
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(https://png.pngtree.com/thumb_back/fw800/background/20210306/pngtree-thread-pattern-background-image_579606.jpg);
   }
 
